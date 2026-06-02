@@ -15,7 +15,6 @@ This project simulates a traffic light system using an Arduino Uno, three LEDs (
 * Yellow LED
 * Green LED
 * 3 Resistors
-* 
 ## How It Works
 
 The Arduino controls the LEDs in sequence:
