@@ -1,21 +1,21 @@
-# Arduino Traffic Light Simulation
+Arduino Traffic Light Simulation
 
-My first Arduino project built using Tinkercad.
 
 <img width="462" height="267" alt="Screenshot 2026-06-02 165347" src="https://github.com/user-attachments/assets/f445ea37-bc5e-4f92-9c03-ac2855b0f987" />
 
-## Project Overview
+ Project Overview
 
 This project simulates a traffic light system using an Arduino Uno, three LEDs (red, yellow, and green), and resistors.
 
-## Components Used
+Components Used
 
 * Arduino Uno
 * Red LED
 * Yellow LED
 * Green LED
 * 3 Resistors
-## How It Works
+
+How It Works
 
 The Arduino controls the LEDs in sequence:
 
@@ -24,7 +24,7 @@ The Arduino controls the LEDs in sequence:
 3. Red LED turns ON for 5 seconds.
 4. The cycle repeats continuously.
 
-## Skills Learned
+Skills Learned
 
 * Basic Arduino programming
 * LED polarity
@@ -32,13 +32,11 @@ The Arduino controls the LEDs in sequence:
 * Use of resistors
 * Digital output pins
 
-## Tools Used
+Tools Used
 
 * Tinkercad
 * Arduino
 * GitHub
-
-## Circuit Code
 
 ```cpp
 int red = 13;
@@ -64,4 +62,6 @@ void loop() {
   delay(5000);
   digitalWrite(red, LOW);
 }
+
+
 
